@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.baitaplon.script.trangchu.SuaSanPham">
+  <grid id="cbd77" binding="panelSuaSanPham" layout-manager="GridLayoutManager" row-count="35" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="48" y="54" width="463" height="1084"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="44b62">
+        <constraints>
+          <grid row="0" column="0" row-span="35" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="7b36" class="javax.swing.JButton" binding="buttonChonAnh">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Chọn ảnh"/>
+        </properties>
+      </component>
+      <component id="2aeb" class="javax.swing.JTextField" binding="textFieldMaThietBi">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="9d844" class="javax.swing.JLabel" binding="labelMaThietBi">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Mã thiết bị"/>
+        </properties>
+      </component>
+      <component id="3f840" class="javax.swing.JLabel" binding="labelTenThietBi">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Tên thiết bị"/>
+        </properties>
+      </component>
+      <component id="594e9" class="javax.swing.JTextField" binding="textFieldTenThietBi">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="aac5f" class="javax.swing.JLabel" binding="labelGiaThietBi">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Giá"/>
+        </properties>
+      </component>
+      <component id="a9ef0" class="javax.swing.JTextField" binding="textFieldGiaThietBi">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="fba36" class="javax.swing.JLabel" binding="labelDungLuongBoNho">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Dung lượng bộ nhớ"/>
+        </properties>
+      </component>
+      <component id="5d2e" class="javax.swing.JTextField" binding="textFieldDungLuongBoNho">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="a67b4" class="javax.swing.JLabel" binding="labelMauThietBi">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Màu"/>
+        </properties>
+      </component>
+      <component id="195a3" class="javax.swing.JTextField" binding="textFieldMauThietBi">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9c300" class="javax.swing.JLabel" binding="labelLoaiManHinh">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Loại màn hình"/>
+        </properties>
+      </component>
+      <component id="a127a" class="javax.swing.JTextField" binding="textFieldLoaiManHinh">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b2831" class="javax.swing.JLabel" binding="labelDoPhanGiai">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Độ phân giải"/>
+        </properties>
+      </component>
+      <component id="880d1" class="javax.swing.JTextField" binding="textFieldDoPhanGiaiDai">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="3be8d" class="javax.swing.JTextField" binding="textFieldDoPhanGiaiRong">
+        <constraints>
+          <grid row="14" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="4244e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="9eaef" class="javax.swing.JLabel" binding="labelManHinh">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Màn hình"/>
+        </properties>
+      </component>
+      <component id="b78f8" class="javax.swing.JTextField" binding="textFieldManHinh">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="c741a" class="javax.swing.JLabel" binding="labelCameraTruoc">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Camera trước"/>
+        </properties>
+      </component>
+      <component id="55d61" class="javax.swing.JTextField" binding="textFieldCameraTruoc">
+        <constraints>
+          <grid row="18" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="440ed" class="javax.swing.JLabel" binding="labelCameraSau">
+        <constraints>
+          <grid row="19" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Camera sau"/>
+        </properties>
+      </component>
+      <component id="7c618" class="javax.swing.JTextField" binding="textFieldCameraSau">
+        <constraints>
+          <grid row="20" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="db3ff" class="javax.swing.JLabel" binding="labelHeDieuHanh">
+        <constraints>
+          <grid row="21" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Hệ điều hành"/>
+        </properties>
+      </component>
+      <component id="56c78" class="javax.swing.JTextField" binding="textFieldHeDieuHanh">
+        <constraints>
+          <grid row="22" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="e77e1" class="javax.swing.JLabel" binding="labelCPU">
+        <constraints>
+          <grid row="23" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Chip"/>
+        </properties>
+      </component>
+      <component id="5ca5f" class="javax.swing.JTextField" binding="textFieldCPU">
+        <constraints>
+          <grid row="24" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="b174f" class="javax.swing.JLabel" binding="labelRAM">
+        <constraints>
+          <grid row="25" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="RAM"/>
+        </properties>
+      </component>
+      <component id="a5e4" class="javax.swing.JTextField" binding="textFieldRAM">
+        <constraints>
+          <grid row="26" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="40e7" class="javax.swing.JLabel" binding="labelDungLuongPin">
+        <constraints>
+          <grid row="27" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Dung lượng pin"/>
+        </properties>
+      </component>
+      <component id="75815" class="javax.swing.JTextField" binding="textFieldDungLuongPin">
+        <constraints>
+          <grid row="28" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="19a62" class="javax.swing.JLabel" binding="labelThoiDiemRaMat">
+        <constraints>
+          <grid row="29" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Thời điểm ra mắt"/>
+        </properties>
+      </component>
+      <component id="2fbea" class="javax.swing.JTextField" binding="textFieldThoiDiemRaMat">
+        <constraints>
+          <grid row="30" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+        </properties>
+      </component>
+      <component id="b5037" class="javax.swing.JButton" binding="buttonDong">
+        <constraints>
+          <grid row="34" column="3" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Đóng"/>
+        </properties>
+      </component>
+      <component id="732f6" class="javax.swing.JButton" binding="buttonSuaSanPham">
+        <constraints>
+          <grid row="34" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <enabled value="false"/>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Lưu"/>
+        </properties>
+      </component>
+      <component id="41f78" class="javax.swing.JLabel" binding="labelAnh">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <horizontalAlignment value="10"/>
+          <horizontalTextPosition value="11"/>
+          <text value=""/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <vspacer id="ed015">
+        <constraints>
+          <grid row="0" column="7" row-span="35" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="7b4fb" class="javax.swing.JLabel" binding="labelLoaiThietBi">
+        <constraints>
+          <grid row="31" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value="Loại"/>
+        </properties>
+      </component>
+      <component id="26115" class="javax.swing.JComboBox" binding="comboBoxLoaiThietBi">
+        <constraints>
+          <grid row="32" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <model>
+            <item value="..."/>
+            <item value="Iphone"/>
+            <item value="SamSung"/>
+            <item value="Oppo"/>
+            <item value="Xiaomi"/>
+            <item value="Realme"/>
+            <item value="Vivo"/>
+          </model>
+        </properties>
+      </component>
+      <component id="96a8b" class="javax.swing.JLabel" binding="labelThongBaoSuaSanPham">
+        <constraints>
+          <grid row="33" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Leelawadee UI" size="12" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

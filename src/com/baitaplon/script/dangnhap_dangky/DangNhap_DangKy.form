@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.baitaplon.script.dangnhap_dangky.DangNhap_DangKy">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="732" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="8c81" binding="tabbedPaneDangNhapOrDangKy">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font name="Dialog" size="14" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d10a4" binding="jPanelDangNhap_TabbedPane" layout-manager="GridLayoutManager" row-count="10" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="ĐĂNG NHẬP"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="ec056" class="javax.swing.JLabel" binding="jLabelTieuDe2_DangNhap">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria" size="17" style="0"/>
+                  <text value="Chào mừng bạn quay trở lại, hãy đăng nhập..."/>
+                </properties>
+              </component>
+              <component id="7a5ad" class="javax.swing.JButton" binding="jButtonDangNhap_DangNhap">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-891904"/>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <foreground color="-1"/>
+                  <hideActionText value="false"/>
+                  <text value="ĐĂNG NHẬP"/>
+                </properties>
+              </component>
+              <component id="d4233" class="javax.swing.JLabel" binding="jLabelTenNguoiDung_DangNhap">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="12" style="0"/>
+                  <text value="Tên người dùng"/>
+                </properties>
+              </component>
+              <component id="85693" class="javax.swing.JLabel" binding="jLabelMatKhau_DangNhap">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="12" style="0"/>
+                  <text value="Mật khẩu"/>
+                </properties>
+              </component>
+              <component id="e4d88" class="javax.swing.JCheckBox" binding="jCheckBoxHienMatKhau_DangNhap">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <font name="Segoe UI" size="12" style="0"/>
+                  <text value="Hiện mật khẩu"/>
+                </properties>
+              </component>
+              <component id="458d1" class="javax.swing.JTextField" binding="textFieldTenNguoiDung_DangNhap">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="c8521" class="javax.swing.JPasswordField" binding="passwordFieldMatKhau_DangNhap">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="d2952" class="javax.swing.JComboBox" binding="jComboBoxAdminOrUser_DangNhap">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-720897"/>
+                  <font name="Segoe UI" size="12" style="0"/>
+                  <model>
+                    <item value="QUẢN TRỊ VIÊN [ADMIN]"/>
+                    <item value="NGƯỜI DÙNG [USER]"/>
+                  </model>
+                </properties>
+              </component>
+              <component id="6ba6c" class="javax.swing.JLabel" binding="jLabelTieuDe1_DangNhap">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="19" style="1"/>
+                  <text value="HỆ THỐNG QUẢN LÝ CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG&#10;"/>
+                  <verticalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="d531d" class="javax.swing.JLabel" binding="jLabelThongBaoTenNguoiDung_DangNhap">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="78fc2" class="javax.swing.JLabel" binding="jLabelThongBaoMatKhau_DangNhap">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Segoe UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="a510" class="javax.swing.JLabel" binding="labelThongBaoDangNhap">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7b5bd" binding="jPanelDangKy_TabbedPane" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="ĐĂNG KÝ"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="49032" class="javax.swing.JLabel" binding="jLabelTieuDe2_DangKy">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Cambria" size="17" style="0"/>
+                  <text value="Hãy tạo một tài khoản cá nhân để sử dụng..."/>
+                </properties>
+              </component>
+              <component id="d17cb" class="javax.swing.JLabel" binding="jLabelTieuDe1_DangKy">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Calibri" size="19" style="1"/>
+                  <text value="HỆ THỐNG QUẢN LÝ CỬA HÀNG ĐIỆN THOẠI DI ĐỘNG"/>
+                </properties>
+              </component>
+              <component id="19503" class="javax.swing.JLabel" binding="jLabelTenNguoiDung_DangKy">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Tên người dùng"/>
+                </properties>
+              </component>
+              <component id="bdff2" class="javax.swing.JTextField" binding="textFieldTenNguoiDung_DangKy">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="a0871" class="javax.swing.JLabel" binding="jLabelMatKhau1_DangKy">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Mật khẩu"/>
+                </properties>
+              </component>
+              <component id="503f1" class="javax.swing.JPasswordField" binding="passwordFieldMatKhau1_DangKy">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="62f79" class="javax.swing.JLabel" binding="jLabelMatKhau2_DangKy">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Nhập lại mật khẩu"/>
+                </properties>
+              </component>
+              <component id="fec41" class="javax.swing.JPasswordField" binding="passwordFieldMatKhau2_DangKy">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="672bb" class="javax.swing.JButton" binding="jButtonDangKy_DangKy">
+                <constraints>
+                  <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-891904"/>
+                  <enabled value="false"/>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="ĐĂNG KÝ"/>
+                </properties>
+              </component>
+              <component id="6da33" class="javax.swing.JLabel" binding="jLabelThongaoTenNguoDung_DangKy">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="44e22" class="javax.swing.JLabel" binding="jLabelThongBaoMatKhau1_DangKy">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="54ca4" class="javax.swing.JLabel" binding="jLabelThongBaoMatKhau2_DangKy">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="2242" class="javax.swing.JLabel" binding="jLabelKiemTraDangKy">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

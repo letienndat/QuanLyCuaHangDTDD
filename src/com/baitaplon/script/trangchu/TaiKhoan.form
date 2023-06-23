@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.baitaplon.script.trangchu.TaiKhoan">
+  <grid id="cbd77" binding="panelTaiKhoan" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="48" y="54" width="436" height="323"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e3588" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7c80e" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="etched" title="Thông tin tài khoản" title-justification="1">
+              <font name="Leelawadee UI" size="13" style="0"/>
+            </border>
+            <children>
+              <component id="1551e" class="javax.swing.JLabel" binding="labelTenTaiKhoan">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Tên tài khoản"/>
+                </properties>
+              </component>
+              <hspacer id="3f7a3">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="e4e71" class="javax.swing.JButton" binding="buttonDangXuat">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-891904"/>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="Đăng xuất"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d64b" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+            </properties>
+            <border type="etched" title="Đổi mật khẩu">
+              <font name="Leelawadee UI" size="13" style="0"/>
+            </border>
+            <children>
+              <component id="6e281" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Mật khẩu hiện tại"/>
+                </properties>
+              </component>
+              <component id="d9aa5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Mật khẩu mới"/>
+                </properties>
+              </component>
+              <component id="eb7bd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value="Xác nhận mật khẩu mới"/>
+                </properties>
+              </component>
+              <component id="46b26" class="javax.swing.JButton" binding="buttonDoiMatKhau">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-891904"/>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="Đổi mật khẩu"/>
+                </properties>
+              </component>
+              <component id="a4a89" class="javax.swing.JLabel" binding="labelThongBaoDoiMatKhau">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f7edb" class="javax.swing.JPasswordField" binding="passwordFieldMatKhauHienTai">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                </properties>
+              </component>
+              <component id="d0e10" class="javax.swing.JPasswordField" binding="passwordFieldMatKhauMoi">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" style="0"/>
+                </properties>
+              </component>
+              <component id="c2ff5" class="javax.swing.JPasswordField" binding="passwordFieldXacNhanMatKhauMoi">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Leelawadee UI" size="12" style="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

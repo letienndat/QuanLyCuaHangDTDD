@@ -1,6 +1,6 @@
 ﻿## Hướng dẫn cài đặt chương trình:
 #### Yêu cầu: 
-- Cài đặt Java JDK 18 trở lên
+- JDK18
 - MySQL
 - Intellij IDEA
 
